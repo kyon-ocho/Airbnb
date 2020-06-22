@@ -1,0 +1,236 @@
+
+
+/* 左のヘッダー */
+header{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background-color: white;
+  top: 0;
+  left: 0;
+} 
+
+
+
+.left-menu {
+  display: flex;
+  float: left;
+}
+
+.fa-seedling {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.sform {
+  display: flex;
+  margin-top: 8px;
+}
+
+.sbox {
+  width: 400px;
+  height: 45px;
+  border: 2px solid #f5f5f5;
+  border-left: 0;
+  margin-left: 0; 
+}
+
+.sbutton {
+  height: 45px;
+  background-color: white;
+  border: 2px solid #f5f5f5;
+  border-right: 0;
+  margin-right: 0;
+}
+
+*{
+  -webkit-appearance: none;
+}
+
+/*右のヘッダー*/
+.right-menu {
+  text-align: right;
+}
+
+.right-menu li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.right-menu li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: darkgrey;
+  padding: 15px;
+}
+
+ /* メイン */
+
+.main-image {
+  width: 100%;
+  height: 600px;
+  margin-top: 60px;
+  background-image: url(img/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+h1 {
+  font-size: 45px;
+  color: white;
+  padding: 80px 0 0 150px;
+  margin-bottom: 0;
+}
+
+.main-p {
+  font-size: 20px;
+  color: white;
+  padding-left:150px;
+}
+
+.mainbutton {
+  margin-left: 150px;
+  color: dimgray;
+  font-size:1.0em;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+  margin-top: 10px;
+}
+
+.second-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.second-title::before{
+  content: '';
+  display: block;
+  background-color: black;
+  height: 2px;
+  width: 80%;
+  margin: 5px auto;
+}
+
+.second-colum {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.third-colum {
+  background-color: #20b2aa;
+  text-align: center;
+  color: white;
+  width:100%;
+  height: 400px;
+}
+
+.fa-gift {
+  margin-top:45px;
+}
+
+.third-title {
+  font-size:30px;
+  font-weight: bold;
+}
+
+p.third {
+  font-size: 20px;
+  margin-top: 0 ;
+}
+
+.gift {
+  background-color: lightpink;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+
+.gift2 a {
+  color: #f5f5f5;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.last-colum-all {
+  display: flex;
+  justify-content: center;
+}
+
+.last-colum-all li {
+  list-style-type: none;
+}
+
+.last-colum-all li a {
+  font-size:14px;
+  font-weight: bold;
+  color: #c0c0c0;
+}
+
+.icons a {
+  font-size:20px;
+  color: #c0c0c0;
+  padding-right:10px 
+}
+
+.last-colum1,.last-colum2,.last-colum3,.last-colum4 {
+  margin: 40px;
+}
+
+.icons {
+  margin: 30px 0px 0 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #f5f5f5;
+}
+
+.fa-plane {
+  padding: 10px;
+}
+
+.last-left p {
+float: left;
+}
+
+.jbutton,.enbutton {
+  margin: 15px;
+  background-color: white;
+  border: 1px solid #f7f7f7;
+  font-size: 1.0em;
+  color: darkgrey;
+}
+
+.last-left a {
+  color: #c0c0c0;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.all-reserved {
+  color: #c0c0c0;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.last-left,.last-right {
+  margin-top: 20px;
+}
+

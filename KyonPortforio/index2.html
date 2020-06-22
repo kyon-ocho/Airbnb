@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メニュー欄</title>
+
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://kit.fontawesome.com/2476e6afe1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="main">
+    <a href="index.html">ホームに戻る</a>
+    <div id="hamburg">
+        <input id="input" type="checkbox">
+        <label id="label1" for="input"><div class="line1"></div><div class="line2"></div><div class="line3"></div></label>
+      <div id="content">
+      <ul class="list">
+          <li><a href="#"><i class="fas fa-home"></i> About</a>
+            <ul>
+              <li><a href="#">link1</a></li>
+              <li><a href="#">link2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Study</a>
+            <ul>
+              <li><a href="#">link1</a></li>
+              <li><a href="#">link2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Column</a>
+            <ul>
+              <li><a href="#">link1</a></li>
+              <li><a href="#">link2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="carousel">
+      <ul class="slides">
+        <li><img src="img/img1.jpg" width="800" height="600" alt="Image 1"></li>
+        <li><img src="img/img2.jpg" width="800" height="600" alt="Image 2"></li>
+        <li><img src="img/img3.jpg" width="800" height="600" alt="Image 3"></li>
+        <li><img src="img/img4.jpg" width="800" height="600" alt="Image 4"></li>
+      </ul>
+      <a href="#" class="carousel-control carousel-control-prev inactive">&lt;</a>
+      <a href="#" class="carousel-control carousel-control-next inactive">&gt;</a>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

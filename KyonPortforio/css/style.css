@@ -1,0 +1,8 @@
+/* 左のヘッダー */
+.left-menu {
+  display: flex;
+}
+
+.fa-seedling {
+  margin-right: 10px;
+}
